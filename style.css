@@ -162,3 +162,18 @@ ol {
     }
   }
 }
+
+footer {
+  & p {
+    text-align: center;
+    margin: 2.5rem 0 4.0625rem 0;
+  }
+  & span {
+    font-family: "Alice", serif;
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+  }
+}
